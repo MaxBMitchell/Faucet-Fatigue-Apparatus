@@ -29,7 +29,7 @@ The apparatus executes serial sequence of two cycles which are repeated.  During
 The second cycle begins when the water level in the **Pressure Vessel** is low.  Durign the second cycle the **Pump** transfers water from the **Collection Tank** and back into the **Pressure Vessel**.  When the **Pressure Vessel** is full the second cycle is complete and first cycle will begin.
 
 * **Pressure Vessel** - A 75L stainless steel tank capable of being pressurized.  This component supplies pressurized water to each faucet.
-* **Collection Tank** - accumulates water which has been dispensed from faucets.
-* **Actuators** - pneumatic cylinders used to activate the faucets.
-* **Pump** - this is used to transfer water from the collection tank back into the pressure vessel.
+* **Collection Tank** - A 200L HDPE tank used to support the faucets, **Actuators**, and accumulate water dispensed from faucets.
+* **Actuators** - Pneumatic cylinder actuators used to activate the faucets.
+* **Pump** - A positive displacement rotarty vane pump used to transfer water from the **Collection Tank** back into the **Pressure Vessel**.  The **Pump** is powered by a 0.5 horsepower AC inductive motor.
 
