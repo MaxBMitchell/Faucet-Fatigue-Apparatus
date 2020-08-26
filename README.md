@@ -22,14 +22,14 @@ An facuet example is shown below:
 * Provide a means for mounting the faucets in a manner similar to the handwash station.
 * Record the number of instances each tap was activated.
 
-### Theory of Operation (PRESENT)
+### Description of Operation (PRESENT)
 
-The apparatus executes sequence of two cycles which are repeated.  During the first cycle air pressure is used to transfer water from the Pressure Vessel to the faucets.  Instead of a human hand, pnuematic Actuators are used to asynchronously activate the faucets.  Water exiting the faucets is accumulated in the Collection Tank.  
+The apparatus executes serial sequence of two cycles which are repeated.  During the first cycle air pressure is used to transfer water from the **Pressure Vessel** to the faucets.  Instead of a human hand, pnuematic **Actuators** are used to asynchronously activate the faucets.  Water exiting the faucets is accumulated in the **Collection Tank**.  
 
-The second cycle begins when the water level in the Pressure Vessel is low.  The pump will then transfer water from the collection tank and back into the Pressure Vessel.  When the Pressure Vessel is full the second cycle is complete and first cycle will begin.
+The second cycle begins when the water level in the **Pressure Vessel** is low.  Durign the second cycle the **Pump** transfers water from the **Collection Tank** and back into the **Pressure Vessel**.  When the **Pressure Vessel** is full the second cycle is complete and first cycle will begin.
 
-* Pressure Vessel - supplies pressurized water to each faucet.
-* Collection Tank - accumulates water which has been dispensed from faucets.
-* Actuators - pneumatic cylinders used to activate the faucets.
-* Pump - this is used to transfer water from the collection tank back into the pressure vessel.
+* **Pressure Vessel** - A 75L stainless steel tank capable of being pressurized.  This component supplies pressurized water to each faucet.
+* **Collection Tank** - accumulates water which has been dispensed from faucets.
+* **Actuators** - pneumatic cylinders used to activate the faucets.
+* **Pump** - this is used to transfer water from the collection tank back into the pressure vessel.
 
