@@ -26,9 +26,9 @@ An facuet example is shown below:
 
 ### Description of Operation
 
-The apparatus repeatedly executes sequence of two cycles.  During the first cycle air pressure is used to transfer water from the **Pressure Vessel** to the faucets.  Instead of a human hand, pnuematic **Actuators** are used to asynchronously activate each faucet.  Water exiting the faucets is accumulated in the **Collection Tank**.  
+The apparatus repeatedly executes sequence of two cycles (test and refill).  During the test cycle air pressure is used to transfer water from the **Pressure Vessel** to the faucets.  Instead of a human hand, pnuematic **Actuators** are used to asynchronously activate each faucet.  Water exiting the faucets is accumulated in the **Collection Tank**.  
 
-The second cycle begins when the water level in the **Pressure Vessel** is low.  During the second cycle the **Pump** transfers water from the **Collection Tank** and back into the **Pressure Vessel**.  When the **Pressure Vessel** is full the second cycle is complete and first cycle will begin.
+The refill cycle begins when the water level in the **Pressure Vessel** is low.  During the refill cycle the **Pump** transfers water from the **Collection Tank** and back into the **Pressure Vessel**.  When the **Pressure Vessel** is full the refill cycle is complete and test cycle will begin.
 
 ### Main Components
 
