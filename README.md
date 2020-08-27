@@ -41,10 +41,11 @@ The second cycle begins when the water level in the **Pressure Vessel** is low. 
 
 ### Documentation Guide
 
-The following files are schematics and diagrms which explain the operation and construction details of the apparatus.
+The following files are schematics and diagrams which explain the operation and construction details of the apparatus.
 
-* Power_and_Controls.png: wiring schematic for the Controller.
+* System_Overview.png: diagram illustrating how each component is oriented in the system.
+* Controller.png: wiring schematic for the Controller.
 * Test_Environemnt.png: wiring schematic for the Solenoid Valves, Pump, and other electrical components not located within the Controller.
-* Cycle_1.png: illustration of component functions during the first cycle of operation.
-* Cycle_2.png: illustration of component functions during the second cycle of operation.
+* Test_Cycle.png: diagram of component functions during the cyle in which the faucets are tested.
+* Refill_Cycle.png: diagram of component functions during the cycle in which the Pressure Vessel is refilled.
 
