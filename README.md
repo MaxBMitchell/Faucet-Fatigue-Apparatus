@@ -20,6 +20,10 @@ An facuet example is shown below:
 * Provide a means for mounting the faucets in a manner similar to the handwash station.
 * Record the number of instances in which each tap was activated.
 
+
+
+# Device Explanation 
+
 ### Description of Operation
 
 The apparatus repeatedly executes sequence of two cycles.  During the first cycle air pressure is used to transfer water from the **Pressure Vessel** to the faucets.  Instead of a human hand, pnuematic **Actuators** are used to asynchronously activate each faucet.  Water exiting the faucets is accumulated in the **Collection Tank**.  
@@ -34,4 +38,13 @@ The second cycle begins when the water level in the **Pressure Vessel** is low. 
 * **Pump** - A positive displacement rotarty vane pump used to transfer water from the Collection Tank back into the Pressure Vessel.  The Pump is powered by a 0.5 horsepower AC inductive motor.
 * **Controller** - This component is programmed to controls the valves which are used to direct air and water througout the system. This is accomplished with an Arduino Mega microcontroller.
 * **Solenoid Valves** - Various two-way two-position solenoid valves are used to direct air and water flow througout the system.
+
+### Documentation Guide
+
+The following files are schematics and diagrms which explain the operation and construction details of the apparatus.
+
+* Power_and_Controls.png: wiring schematic for the Controller.
+* Test_Environemnt.png: wiring schematic for the Solenoid Valves, Pump, and other electrical components not located within the Controller.
+* Cycle_1.png: illustration of component functions during the first cycle of operation.
+* Cycle_2.png: illustration of component functions during the second cycle of operation.
 
