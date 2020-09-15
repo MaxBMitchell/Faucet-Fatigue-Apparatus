@@ -11,13 +11,13 @@ An facuet example is shown below:
 
 ### The folowing goals were used to guide the apparatus design:
 
-* Accomodate at least four test samples.
+* Accomodate at least four samples.
 * Supply water in a controlled and consistent manner which mimics municipal water supply.
 * Provide means for testing at various pressures up to a maximum of 100 PSI.
 * Supply water with turbidity of approximately 10 NTU.
 * Operate constantly with minimal maintenance in an attempt to maximize the usage of each sample.
 * Recycle water to minimize cost and waste.
-* Provide a means for mounting the faucets in a manner similar to the handwash station.
+* Provide a means for mounting the faucets in a manner similar to the handwash station final design.
 * Record the number of instances in which each tap was activated.
 
 
@@ -26,9 +26,9 @@ An facuet example is shown below:
 
 ### Description of Operation
 
-The apparatus repeatedly executes sequence of two cycles (test and refill).  During the test cycle air pressure is used to transfer water from the **Pressure Vessel** to the faucets.  Instead of a human hand, pnuematic **Actuators** are used to asynchronously activate each faucet.  Water exiting the faucets is accumulated in the **Collection Tank**.  
+The apparatus repeatedly executes a sequence of two cycles (test and refill).  During the test cycle air pressure is used to transfer water from the **Pressure Vessel** to the faucets.  Instead of a human hand, pnuematic **Actuators** are used to asynchronously activate each faucet.  Water exiting the faucets is accumulated in the **Collection Tank**.  
 
-The refill cycle begins when the water level in the **Pressure Vessel** is low.  During the refill cycle the **Pump** transfers water from the **Collection Tank** and back into the **Pressure Vessel**.  When the **Pressure Vessel** is full the refill cycle is complete and test cycle will begin.
+The refill cycle begins when the water level in the **Pressure Vessel** is low.  During the refill cycle the **Pump** transfers water from the **Collection Tank** back into the **Pressure Vessel**.  When the **Pressure Vessel** is full the refill cycle is complete and test cycle will begin.
 
 ### Main Components
 
