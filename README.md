@@ -35,8 +35,8 @@ The refill cycle begins when the water level in the **Pressure Vessel** is low. 
 * **Pressure Vessel** - A 75L stainless steel tank capable of being pressurized.  This component supplies pressurized water to each faucet.
 * **Collection Tank** - A 200L HDPE tank used to support the Actuators, faucets, and accumulate water dispensed from faucets.
 * **Actuators** - Pneumatic cylinder actuators used to activate the faucets.
-* **Pump** - A positive displacement rotarty vane pump used to transfer water from the Collection Tank back into the Pressure Vessel.  The Pump is powered by a 0.5 horsepower AC inductive motor.
-* **Controller** - This component is programmed to controls the valves which are used to direct air and water througout the system. This is accomplished with an Arduino Mega microcontroller.
+* **Pump** - A positive displacement rotary vane pump used to transfer water from the Collection Tank back into the Pressure Vessel.  The Pump is powered by a 0.5 horsepower AC inductive motor.
+* **Controller** - This component is programmed to control the valves which are used to direct air and water througout the system. This is accomplished with an Arduino Mega microcontroller.
 * **Solenoid Valves** - Various two-way two-position solenoid valves are used to direct air and water flow througout the system.
 
 ### Documentation Guide
